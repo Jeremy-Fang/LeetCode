@@ -1,0 +1,9 @@
+Q1:
+- since it's only a and b, the max palindrome that can be removed will use all of one letter or all - 1. Thus what is left will always be a palindrome. x = 2
+- if the input is a palindrome x = 1
+
+Q2:
+- just filter and sort
+
+Q3:
+- Floyd-Warshall min matrix then count by Threshold to find the min.
