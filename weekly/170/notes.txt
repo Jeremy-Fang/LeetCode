@@ -1,0 +1,17 @@
+Q1:
+- create dictionary that maps "letters" to letters
+- parse string based on "#"
+- return list passed through dictionary
+
+Q2:
+- create dp list xoring previous value with curr in array
+- do for loop through queries where you xor the value before the start index with that of the end index in the dp ("undoes" the xors before that index)
+
+Q3:
+- create two dictionaries, one is graph of friends with weight 1 edges ("distance" of friends) and other is videos each person has watched
+- Floyd-Warshall to find distance to each friend. From the given id find all friends of appropriate distance
+- iterate through those friends and add videos accordingly to result dictionary.
+- sort values by occurences and return list
+
+note:
+- should've done bfs for Q3. worked cuz max len = 100 but super slow
